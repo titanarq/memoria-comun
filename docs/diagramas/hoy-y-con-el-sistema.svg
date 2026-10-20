@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="Hoy cada persona guarda su memoria en su PC y nada se comparte; con el sistema, los plugins bajan de un repo compartido a cada Claude y los extractos suben de cada Claude al repo">
+<style>
+svg{font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:#1a232c}
+text{fill:currentColor;font-size:12px}
+.t-strong{font-weight:600;font-size:13px}
+.t-muted{fill:#5a6774;font-size:11px}
+.t-mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:11px;fill:#5a6774}
+.t-inv{fill:#ffffff;font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;font-weight:500}
+.box{fill:#ffffff;stroke:currentColor;stroke-width:1.2}
+.box-accent{fill:#dbeeee;stroke:#0f6f74;stroke-width:1.5}
+.box-human{fill:#f8e9d8;stroke:#b4651c;stroke-width:1.5}
+.box-dash{fill:none;stroke:#5a6774;stroke-dasharray:5 4;stroke-width:1.1}
+.edge{fill:none;stroke:currentColor;stroke-width:1.3}
+.edge-dash{fill:none;stroke:#5a6774;stroke-width:1.2;stroke-dasharray:5 4}
+.wall{fill:none;stroke:#5a6774;stroke-width:1.4;stroke-dasharray:3 4}
+.venn{fill:#0f6f74;fill-opacity:.16;stroke:#0f6f74;stroke-width:1.4}
+.node{fill:#0f6f74;stroke:none}
+.bracket{fill:none;stroke:#5a6774;stroke-width:1.2}
+</style>
+<rect width="920" height="260" fill="#ffffff"/>
+      <defs><marker id="arr0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+      <text class="t-mono" x="20" y="26">HOY</text>
+      <rect class="box" x="20" y="60" width="120" height="50" rx="4"/><text class="t-strong" x="80" y="81" text-anchor="middle">Persona A</text><text class="t-muted" x="80" y="99" text-anchor="middle">Claude local</text>
+      <rect class="box" x="160" y="60" width="120" height="50" rx="4"/><text class="t-strong" x="220" y="81" text-anchor="middle">Persona B</text><text class="t-muted" x="220" y="99" text-anchor="middle">Claude local</text>
+      <rect class="box" x="300" y="60" width="120" height="50" rx="4"/><text class="t-strong" x="360" y="81" text-anchor="middle">Persona C</text><text class="t-muted" x="360" y="99" text-anchor="middle">Claude local</text>
+      <path class="edge" d="M80,110 L80,150" marker-end="url(#arr0)"/><path class="edge" d="M220,110 L220,150" marker-end="url(#arr0)"/><path class="edge" d="M360,110 L360,150" marker-end="url(#arr0)"/>
+      <rect class="box-dash" x="20" y="152" width="120" height="44" rx="4"/><text class="t-muted" x="80" y="178" text-anchor="middle">memoria en su PC</text>
+      <rect class="box-dash" x="160" y="152" width="120" height="44" rx="4"/><text class="t-muted" x="220" y="178" text-anchor="middle">memoria en su PC</text>
+      <rect class="box-dash" x="300" y="152" width="120" height="44" rx="4"/><text class="t-muted" x="360" y="178" text-anchor="middle">memoria en su PC</text>
+      <text class="t-muted" x="220" y="232" text-anchor="middle">nada se comparte; si alguien falta, su conocimiento falta con él</text>
+      <line class="wall" x1="460" y1="20" x2="460" y2="245"/>
+      <text class="t-mono" x="500" y="26">CON EL SISTEMA</text>
+      <rect class="box-accent" x="560" y="50" width="300" height="50" rx="4"/><text class="t-strong" x="710" y="71" text-anchor="middle">Repo compartido</text><text class="t-muted" x="710" y="89" text-anchor="middle">plugins, fichas, reglas; revisado por PR</text>
+      <rect class="box" x="500" y="160" width="110" height="50" rx="4"/><text class="t-strong" x="555" y="181" text-anchor="middle">Persona A</text><text class="t-muted" x="555" y="199" text-anchor="middle">Claude</text>
+      <rect class="box" x="630" y="160" width="110" height="50" rx="4"/><text class="t-strong" x="685" y="181" text-anchor="middle">Persona B</text><text class="t-muted" x="685" y="199" text-anchor="middle">Claude</text>
+      <rect class="box" x="760" y="160" width="110" height="50" rx="4"/><text class="t-strong" x="815" y="181" text-anchor="middle">Persona C</text><text class="t-muted" x="815" y="199" text-anchor="middle">Claude</text>
+      <path class="edge" d="M555,160 L600,100" marker-start="url(#arr0)" marker-end="url(#arr0)"/>
+      <path class="edge" d="M685,160 L685,100" marker-start="url(#arr0)" marker-end="url(#arr0)"/>
+      <path class="edge" d="M815,160 L810,100" marker-start="url(#arr0)" marker-end="url(#arr0)"/>
+      <text class="t-muted" x="685" y="238" text-anchor="middle">los plugins bajan a cada Claude; los extractos filtrados suben al repo</text>
+    </svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="El trabajo diario pasa por un extractor local con cuatro barreras, un buzón de revisión manual opcional, y cruza a la parte central solo como extracto; el consolidador abre PRs al repo, una persona fusiona, y los plugins vuelven instalados al Claude de todos">
+<style>
+svg{font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:#1a232c}
+text{fill:currentColor;font-size:12px}
+.t-strong{font-weight:600;font-size:13px}
+.t-muted{fill:#5a6774;font-size:11px}
+.t-mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:11px;fill:#5a6774}
+.t-inv{fill:#ffffff;font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;font-weight:500}
+.box{fill:#ffffff;stroke:currentColor;stroke-width:1.2}
+.box-accent{fill:#dbeeee;stroke:#0f6f74;stroke-width:1.5}
+.box-human{fill:#f8e9d8;stroke:#b4651c;stroke-width:1.5}
+.box-dash{fill:none;stroke:#5a6774;stroke-dasharray:5 4;stroke-width:1.1}
+.edge{fill:none;stroke:currentColor;stroke-width:1.3}
+.edge-dash{fill:none;stroke:#5a6774;stroke-width:1.2;stroke-dasharray:5 4}
+.wall{fill:none;stroke:#5a6774;stroke-width:1.4;stroke-dasharray:3 4}
+.venn{fill:#0f6f74;fill-opacity:.16;stroke:#0f6f74;stroke-width:1.4}
+.node{fill:#0f6f74;stroke:none}
+.bracket{fill:none;stroke:#5a6774;stroke-width:1.2}
+</style>
+<rect width="1000" height="320" fill="#ffffff"/>
+      <defs><marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+      <text class="t-mono" x="595" y="52" text-anchor="end">MÁQUINA DE LA PERSONA</text>
+      <text class="t-mono" x="615" y="52">CENTRAL</text>
+      <line class="wall" x1="605" y1="36" x2="605" y2="80"/>
+      <line class="wall" x1="605" y1="150" x2="605" y2="215"/>
+      <rect class="box" x="20" y="100" width="160" height="80" rx="4"/>
+      <text class="t-strong" x="100" y="124" text-anchor="middle">Trabajo diario</text>
+      <text class="t-muted" x="100" y="144" text-anchor="middle">sesiones de Claude Code</text>
+      <text class="t-muted" x="100" y="162" text-anchor="middle">bugs y PBIs cerrados</text>
+      <path class="edge" d="M180,140 L230,140" marker-end="url(#arr3)"/>
+      <text class="t-muted" x="205" y="92" text-anchor="middle">transcript, WI</text>
+      <rect class="box-accent" x="230" y="100" width="170" height="80" rx="4"/>
+      <text class="t-strong" x="315" y="124" text-anchor="middle">Extractor</text>
+      <text class="t-muted" x="315" y="144" text-anchor="middle">en la máquina</text>
+      <text class="t-muted" x="315" y="162" text-anchor="middle">cuatro barreras de privacidad</text>
+      <path class="edge" d="M400,140 L430,140" marker-end="url(#arr3)"/>
+      <text class="t-muted" x="415" y="92" text-anchor="middle">extracto</text>
+      <rect class="box-human" x="430" y="100" width="120" height="80" rx="4"/>
+      <text class="t-strong" x="490" y="124" text-anchor="middle">Buzón</text>
+      <text class="t-muted" x="490" y="144" text-anchor="middle">revisión manual</text>
+      <text class="t-muted" x="490" y="162" text-anchor="middle">opcional</text>
+      <path class="edge" d="M550,140 L660,140" marker-end="url(#arr3)"/>
+      <text class="t-muted" x="605" y="92" text-anchor="middle">solo el extracto cruza</text>
+      <rect class="box-accent" x="660" y="100" width="170" height="80" rx="4"/>
+      <text class="t-strong" x="745" y="124" text-anchor="middle">Consolidador</text>
+      <text class="t-muted" x="745" y="144" text-anchor="middle">fusiona, generaliza,</text>
+      <text class="t-muted" x="745" y="162" text-anchor="middle">detecta contradicciones, reorganiza</text>
+      <path class="edge" d="M830,140 L870,140" marker-end="url(#arr3)"/>
+      <text class="t-muted" x="850" y="92" text-anchor="middle">PR</text>
+      <rect class="box-human" x="870" y="100" width="120" height="80" rx="4"/>
+      <text class="t-strong" x="930" y="124" text-anchor="middle">Repo</text>
+      <text class="t-muted" x="930" y="144" text-anchor="middle">una persona</text>
+      <text class="t-muted" x="930" y="162" text-anchor="middle">fusiona o rechaza</text>
+      <path class="edge" d="M930,180 L930,240 L100,240 L100,180" marker-end="url(#arr3)"/>
+      <text class="t-muted" x="515" y="232" text-anchor="middle">los plugins vuelven instalados al Claude de todos</text>
+      <rect class="box-accent" x="20" y="286" width="14" height="14" rx="2"/><text class="t-muted" x="42" y="297">agente</text>
+      <rect class="box-human" x="110" y="286" width="14" height="14" rx="2"/><text class="t-muted" x="132" y="297">decisión humana</text>
+    </svg>
